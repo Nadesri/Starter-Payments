@@ -1,0 +1,39 @@
+<html>
+  <script type='text/javascript'>
+    window.onAmazonLoginReady = function() {
+      amazon.Login.setClientId('YOUR_CLIENT_ID_HERE');
+    };
+  </script>
+  <script type='text/javascript'
+    src='https://static-na.payments-amazon.com/OffAmazonPayments/us/js/Widgets.js?sellerId=YOUR_SELLER_ID_HERE'>
+  </script>
+
+  <head>
+    <title>Amazon Payments Starter Project</title>
+    <!-- Bootstrap -->    <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+    <!-- App-specific --> <link href="css/style.css" rel="stylesheet">
+    <script data-main="js/main.js" src="js/lib/require.js"></script>
+  </head>
+
+  <body>
+     <section title="Amazon Payments Introduction">
+     <h1>Creating an Amazon Payments Page</h1>
+     <p class="lead">
+     This is an example of a payment form, intended for use as a starter
+     project that can be integrated into other projects.
+     </p>
+     </section>
+
+     <section title="Payment Form">
+     <!-- Place this where you would like the Payment Button to appear -->
+     <div id="AmazonPayButton"></div>
+     </section>
+
+     <section title="About Me">
+     Author: Nade Sritanyaratana
+     <br>
+     Created: November 22, 2015
+     </section>
+  </body>
+
+</html>
